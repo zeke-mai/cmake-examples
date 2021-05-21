@@ -7,35 +7,30 @@ toc::[]
 
 # 介绍
 
-https://cmake.org/[CMake] is a cross-platform open-source meta-build system which
-can build, test and package software. It can be used to support multiple native build environments including
-make, Apple's xcode and Microsoft Visual Studio.
+https://cmake.org/[CMake] 是一个跨平台的开源元构建系统，可以构建，测试和打包软件。它可以用于支持多种本机构建环境，包括苹果公司的 xcode 和微软公司的 Visual Studio.
 
-This repository includes some example modern CMake configurations which I have picked up
-when exploring it's usage for various projects. The examples are laid out in a tutorial like format.
-The first examples are very basic and slowly increase in complexity drawing on previous examples to show
-more complex use cases.
+该仓库包含了一些现代 CMake 的配置示例，这些示例以类似教程的格式进行布局。第一个示例非常基础，并且在先前示例的基础上逐渐增加了复杂性，以展示更复杂的用例。
 
-These examples have been tested on Ubuntu 16.04 but should work under any Linux system that supports CMake v3.5+.
+这些示例已在 Ubuntu 16.04 上进行了测试，但应在任何支持 CMake v3.5+ 的 Linux 系统上运行
 
-This branch works with the CMake version 3.5 onwards. 
+此分支适用于 CMake 3.5 及更高版本
 
-* For examples that use CMake version 2.x see the branch link:https://github.com/ttroy50/cmake-examples/tree/v2-style-includes[v2-style-includes].
-* For examples that use CMake version 3.0 see the branch link:https://github.com/ttroy50/cmake-examples/tree/v3.0-minimum[v3.0-minimum]
+* 有关使用 CMake 2.x 的示例，请参见分支 link:https://github.com/ttroy50/cmake-examples/tree/v2-style-includes[v2-style-includes].
+* 有关使用 CMake 3.0 的示例，请参见分支 link:https://github.com/ttroy50/cmake-examples/tree/v3.0-minimum[v3.0-minimum]
 
 image:https://travis-ci.org/ttroy50/cmake-examples.svg?branch=master["Build Status", link="https://travis-ci.org/ttroy50/cmake-examples"]
 
-# Requirements
+# 要求
 
-The basic requirements for most examples are:
+大多数示例的基本要求为:
 
 * CMake v3.5+
-* A c++ compiler (defaults to gcc)
+* C++ 编译器 (默认为 gcc )
 * make
 
-## Installation on Ubuntu
+## 在 Ubuntu 上安装
 
-The easiest way to install the above on Ubuntu is as follows
+在 Ubuntu 上安装以上内容的最简单方法如下:
 
 [source,bash]
 ----
@@ -43,7 +38,7 @@ $ sudo apt-get install build-essential
 $ sudo apt-get install cmake
 ----
 
-Some specific examples may require other tools including:
+一些特定的示例可能需要其他工具，包括:
 
 * http://www.boost.org/[boost]
 
